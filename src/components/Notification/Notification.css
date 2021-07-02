@@ -1,0 +1,20 @@
+.notification__container {
+    position: fixed;
+    bottom: var(--spacing-large);
+    left: var(--spacing-large);
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-medium) var(--spacing-large);
+    border: 1px solid var(--color-black);
+    background-color: var(--color-white);
+}
+.notification__container span {
+    font-size: 30px;
+    display: block;
+}
+.notification__close {
+font-size: 60px;
+color: var(--color-black);
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: red;
+}

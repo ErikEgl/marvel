@@ -1,0 +1,8 @@
+body {
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
